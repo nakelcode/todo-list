@@ -31,6 +31,7 @@ function addItem(){
         button.remove();
     }
     clearButton.addEventListener("click", clearAllItem);
+    item.value = "";
 
 }
 
